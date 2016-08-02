@@ -1,0 +1,113 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="dialog">
+        <item name="android:windowBackground">@drawable/transparent_dialog</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MineDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyLoadingDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+         <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="comm_action">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="comm_button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/comm_button_text_size</item>
+        <item name="android:paddingLeft">@dimen/comm_button_padding</item>
+        <item name="android:paddingRight">@dimen/comm_button_padding</item>
+        <item name="android:paddingTop">@dimen/comm_button_padding</item>
+        <item name="android:paddingBottom">@dimen/comm_button_padding</item>
+        <item name="android:layout_margin">@dimen/comm_button_margin</item>
+    </style>
+
+    <style name="comm_text">
+        <item name="android:textSize">@dimen/comm_text_size_s</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:paddingLeft">@dimen/comm_padding_s</item>
+        <item name="android:paddingRight">@dimen/comm_padding_s</item>
+        <item name="android:paddingBottom">@dimen/comm_padding_s</item>
+        <item name="android:paddingTop">@dimen/comm_padding_s</item>
+    </style>
+
+    <style name="comm_text_s" parent="@style/comm_text">
+        <item name="android:textSize">@dimen/comm_text_size_s</item>
+    </style>
+
+    <style name="comm_text_m" parent="@style/comm_text">
+        <item name="android:textSize">@dimen/comm_text_size_m</item>
+    </style>
+
+    <style name="comm_text_l" parent="@style/comm_text">
+        <item name="android:textSize">@dimen/comm_text_size_l</item>
+    </style>
+
+    <style name="comm_text_xl" parent="@style/comm_text">
+        <item name="android:textSize">@dimen/comm_text_size_xl</item>
+    </style>
+
+    <style name="category_name_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mystyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dlg_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="popwindowUpAnim">
+        <item name="android:windowEnterAnimation">@anim/fade_up</item>
+        <item name="android:windowExitAnimation">@anim/fade_down</item>
+    </style>
+
+  <style name="StyledIndicators" parent="@android:style/Theme.Light">  
+    <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>  
+</style>  
+  
+<style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">  
+    <item name="android:background">@drawable/tab_indicator</item>  
+    <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>  
+    <item name="android:textSize">14sp</item> 
+    <item name="android:dividerPadding">10dp</item>  
+    <item name="android:showDividers">middle</item>  
+    <item name="android:paddingLeft">10dp</item>  
+    <item name="android:paddingRight">10dp</item>  
+    <item name="android:fadingEdge">horizontal</item>  
+    <item name="android:fadingEdgeLength">8dp</item>  
+</style>  
+  
+<style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">  
+    <item name="android:textColor">@color/white</item>  
+</style>  
+
+</resources>

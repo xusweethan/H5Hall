@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true">
+          	<FrameLayout 
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content">
+          	    <TextView
+                    android:id="@+id/circle_bg"
+                    android:layout_width="550dp"
+                    android:layout_height="550dp"
+                    android:background="@drawable/circle_ring"/>
+          	    <LinearLayout 
+		          	android:layout_width="match_parent"
+		          	android:layout_height="wrap_content"
+		          	android:orientation="vertical"
+		          	android:padding="10dp" >
+          	<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="50dp"
+		        android:orientation="vertical">
+			    <android.support.v4.view.ViewPager
+			        android:id="@+id/viewpager"
+			        android:layout_width="fill_parent"
+			        android:layout_height="160dp"
+			    />
+			    <com.viewpagerindicator.CirclePageIndicator
+			        xmlns:app="http://schemas.android.com/apk/res"  
+			        android:id="@+id/indicator"
+			        android:padding="10dip"
+			        android:layout_marginTop="10dp"
+			        android:layout_height="wrap_content"
+			        android:layout_width="fill_parent"
+			        app:radius="10dp"
+			        app:fillColor="#FF888888"
+			        app:pageColor="#88FF0000"
+			        app:strokeColor="#FF000000"
+			        app:strokeWidth="2dp"
+			    />
+		        
+	    	</LinearLayout>
+	    	<TextView 
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_marginTop="20dp"
+	    	    android:textSize="16sp"
+	    	    android:textStyle="bold"
+	    	    android:text="Hot" />
+	    	<HorizontalScrollView
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="110dp"
+	    	    android:scrollbars="none">
+			    <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="fill_parent" >
+	    	    <GridView
+	    	        android:id="@+id/hot_games"
+	    	        android:layout_width="wrap_content"
+	    	        android:layout_height="match_parent"
+	    	        android:gravity="center"
+	                android:numColumns="auto_fit"
+	                android:stretchMode="spacingWidthUniform"
+	                android:scrollbars="none"
+	                android:listSelector="#00000000"
+	                android:cacheColorHint="#0000000f"
+	                android:horizontalSpacing="5dp"
+	                android:columnWidth="80dp">
+	    	    </GridView>
+	    	    </LinearLayout>
+	    	</HorizontalScrollView>
+	    	
+	    	<TextView 
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_marginTop="10dp"
+	    	    android:textSize="16sp"
+	    	    android:textStyle="bold"
+	    	    android:text="New" />
+	    	<HorizontalScrollView
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="110dp"
+	    	    android:scrollbars="none">
+			    <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="fill_parent" >
+	    	    <GridView
+	    	        android:id="@+id/new_games"
+	    	        android:layout_width="wrap_content"
+	    	        android:layout_height="match_parent"
+	    	        android:gravity="center"
+	                android:numColumns="auto_fit"
+	                android:stretchMode="spacingWidthUniform"
+	                android:scrollbars="none"
+	                android:listSelector="#00000000"
+	                android:cacheColorHint="#0000000f"
+	                android:horizontalSpacing="5dp"
+	                android:columnWidth="80dp">
+	    	    </GridView>
+	    	    </LinearLayout>
+	    	</HorizontalScrollView>
+	    	<TextView 
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_marginTop="10dp"
+	    	    android:textSize="16sp"
+	    	    android:textStyle="bold"
+	    	    android:text="Recent" />
+	    	<HorizontalScrollView
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="110dp"
+	    	    android:scrollbars="none">
+			    <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="fill_parent" >
+	    	    <GridView
+	    	        android:id="@+id/recent_games"
+	    	        android:layout_width="wrap_content"
+	    	        android:layout_height="match_parent"
+	    	        android:gravity="center"
+	                android:numColumns="auto_fit"
+	                android:stretchMode="spacingWidthUniform"
+	                android:scrollbars="none"
+	                android:listSelector="#00000000"
+	                android:cacheColorHint="#0000000f"
+	                android:horizontalSpacing="5dp"
+	                android:columnWidth="80dp">
+	    	    </GridView>
+	    	    </LinearLayout>
+	    	</HorizontalScrollView>
+<!-- 	    	<HorizontalScrollView -->
+<!-- 	    	    android:layout_width="match_parent" -->
+<!-- 	    	    android:layout_height="wrap_content" -->
+<!-- 	    	    android:scrollbars="none"> -->
+<!-- 			    <LinearLayout -->
+<!-- 		            android:layout_width="wrap_content" -->
+<!-- 		            android:layout_height="match_parent" > -->
+<!-- 	    	    <GridView -->
+<!-- 	    	        android:id="@+id/specials" -->
+<!-- 	    	        android:layout_width="wrap_content" -->
+<!-- 	    	        android:layout_height="match_parent" -->
+<!-- 	    	        android:gravity="center" -->
+<!-- 	                android:numColumns="auto_fit" -->
+<!-- 	                android:stretchMode="spacingWidthUniform" -->
+<!-- 	                android:scrollbars="none" -->
+<!-- 	                android:listSelector="#00000000" -->
+<!-- 	                android:cacheColorHint="#0000000f" -->
+<!-- 	                android:columnWidth="160dp"> -->
+<!-- 	    	    </GridView> -->
+<!-- 	    	    </LinearLayout> -->
+<!-- 	    	</HorizontalScrollView> -->
+        </LinearLayout>
+	        
+      	</FrameLayout>
+            	
+	</ScrollView>
+	
+    <!-- <TextView
+         android:id="@+id/deco_ani"
+         android:layout_width="500dp"
+         android:layout_height="500dp"
+         android:background="@drawable/circle_red_bg"/> -->
+
+	<RelativeLayout
+	    android:id="@+id/title_bar"
+	    android:layout_alignParentTop="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:background="@color/gradient_red">
+	    <TextView 
+	    	android:layout_width="wrap_content"
+	  	    android:layout_height="match_parent"
+	   	    android:gravity="center"
+	   	    android:padding="8dp"
+	   	    android:textSize="20sp"
+	   	    android:textStyle="bold"
+    	    android:text="Recommend"
+    	    android:textColor="@color/white"
+    	    android:layout_marginLeft="10dp" />
+	    <ImageView 
+	        android:id="@+id/share"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="10dp"
+	        android:src="@drawable/share"
+	        
+	        />
+    </RelativeLayout>
+</RelativeLayout>

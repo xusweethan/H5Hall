@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="comm_button_text_size">15sp</dimen>
+    <dimen name="comm_button_padding">5dp</dimen>
+    <dimen name="comm_button_margin">5dp</dimen>
+    <dimen name="comm_edit_text_size">15sp</dimen>
+    <dimen name="comm_edit_padding">5dp</dimen>
+    <dimen name="comm_title_text_size">20sp</dimen>
+    <dimen name="comm_title_padding">5dp</dimen>
+    <dimen name="comm_text_size_xs">10sp</dimen>
+    <dimen name="comm_text_size_s">12sp</dimen>
+    <dimen name="comm_text_size_m">14sp</dimen>
+    <dimen name="comm_text_size_l">18sp</dimen>
+    <dimen name="comm_text_size_xl">22sp</dimen>
+    <dimen name="comm_text_size_xxl">26sp</dimen>
+    <dimen name="comm_text_size_xxxl">30sp</dimen>
+    <dimen name="comm_padding_s">3dp</dimen>
+    <dimen name="comm_padding_m">5dp</dimen>
+    <dimen name="comm_padding_l">8dp</dimen>
+    <dimen name="comm_padding_xl">12dp</dimen>
+    <dimen name="comm_padding_xxl">16dp</dimen>
+    <dimen name="comm_padding_xxxl">20dp</dimen>
+    <dimen name="comm_padding_xxxxl">32dp</dimen>
+    <dimen name="comm_margin_xs">1dp</dimen>
+    <dimen name="comm_margin_s">3dp</dimen>
+    <dimen name="comm_margin_m">5dp</dimen>
+    <dimen name="comm_margin_l">8dp</dimen>
+    <dimen name="comm_margin_xl">12dp</dimen>
+    <dimen name="comm_margin_xxl">16dp</dimen>
+    <dimen name="comm_margin_xxxl">20dp</dimen>
+    <dimen name="comm_margin_xxxxl">32dp</dimen>
+    
+    <dimen name="comm_titlebar_height">54dp</dimen>
+    <dimen name="login_edt_margin">10dp</dimen>
+
+    <dimen name="size_avatar">50dp</dimen>
+    
+    <!-- <dimen name="wheel_view_text_size">48sp</dimen> -->
+    
+</resources>

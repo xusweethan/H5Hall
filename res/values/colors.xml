@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btntextcolor">#ff1E90FF</color><!--dialog中按钮字体颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="black_bg">#000000</color>
+    <color name="dark_gray">#333</color>
+    <color name="green">#2ca64f</color>
+    <color name="dark_green">#0a8f36</color>
+    <color name="dark_blue">#224fa4</color>
+    <color name="light_blue">#c9d7ec</color>
+    <color name="gray">#999999</color>
+    <color name="weak_gray">#cccccc</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#EA8400</color>
+    <color name="map_orange">#f29700</color>
+    <color name="dark_orange">#EF9500</color>
+    <color name="semi_trans">#90000000</color>
+    <color name="pager_indicator">#f29700</color>
+    <color name="light_gray">#666666</color>
+    <color name="white_transparent">#e0ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_transparent">#a0999999</color>
+    <color name="title_bg">#ff5252</color>
+    <color name="grid_bg">#efefef</color>
+    <color name="toolbutton_like">#ab47ba</color>
+    <color name="toolbutton_popular">#ec407a</color>
+    <color name="toolbutton_refresh">#f39800</color>
+    <color name="divider_line">#BFBFBF</color>
+    <color name="gather_entry_red">#E82837</color>
+    <color name="gather_entry_gray">#F6F6F6</color>
+    <color name="comm_bottom_bg">#EEEEEE</color>
+    <color name="my_upload_divider_line">#C7C7C9</color>
+    <color name="login_btn_green">#49651A</color>
+    <color name="gather_btn_green">#4A661B</color>
+    <color name="search_checkbox_bg">#EEEFF1</color>
+    <color name="feedback_cancel_btn">#EEEEEE</color>
+    <color name="main_welcome_btn">#379CA6</color>
+    <color name="weak_red">#c37e7b</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="weak_yellow">#FFFFBF</color>
+    <color name="gray_mine">#9D9D9D</color>
+
+    <color name="common_bg">#f0f0f3</color>
+    <color name="gray_text">#adadad</color>
+    <color name="play_translucent_bg">#c0000000</color>
+    <color name="realplay_loading_text">#7d755d</color>
+    <color name="event_message_play_btn">#eeeeee</color>
+    <color name="message_button_text">#555</color>
+    <color name="black_text">#333333</color>
+    
+    <color name="greeny">#00CB0D</color>
+    <color name="black1">#7A7E83</color>
+    
+    <drawable name="mine_transparent">#00000000</drawable>
+    
+    <color name="appBG">#eaedf2</color>
+</resources>

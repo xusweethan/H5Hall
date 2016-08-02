@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="comm_button_text_size">15sp</dimen>
+    <dimen name="comm_button_padding">5dp</dimen>
+    <dimen name="comm_button_margin">5dp</dimen>
+    <dimen name="comm_edit_text_size">15sp</dimen>
+    <dimen name="comm_edit_padding">5dp</dimen>
+    <dimen name="comm_title_text_size">20sp</dimen>
+    <dimen name="comm_title_padding">5dp</dimen>
+    <dimen name="comm_text_size_xs">10sp</dimen>
+    <dimen name="comm_text_size_s">12sp</dimen>
+    <dimen name="comm_text_size_m">14sp</dimen>
+    <dimen name="comm_text_size_l">18sp</dimen>
+    <dimen name="comm_text_size_xl">22sp</dimen>
+    <dimen name="comm_text_size_xxl">26sp</dimen>
+    <dimen name="comm_text_size_xxxl">30sp</dimen>
+    <dimen name="comm_padding_s">3dp</dimen>
+    <dimen name="comm_padding_m">5dp</dimen>
+    <dimen name="comm_padding_l">8dp</dimen>
+    <dimen name="comm_padding_xl">12dp</dimen>
+    <dimen name="comm_padding_xxl">16dp</dimen>
+    <dimen name="comm_padding_xxxl">20dp</dimen>
+    <dimen name="comm_padding_xxxxl">32dp</dimen>
+    <dimen name="comm_margin_xs">1dp</dimen>
+    <dimen name="comm_margin_s">3dp</dimen>
+    <dimen name="comm_margin_m">5dp</dimen>
+    <dimen name="comm_margin_l">8dp</dimen>
+    <dimen name="comm_margin_xl">12dp</dimen>
+    <dimen name="comm_margin_xxl">16dp</dimen>
+    <dimen name="comm_margin_xxxl">20dp</dimen>
+    <dimen name="comm_margin_xxxxl">32dp</dimen>
+    <dimen name="main_home_slidingmenu_offset">90dp</dimen>
+    <dimen name="main_home_menu_title_text_size">25sp</dimen>
+    <dimen name="main_home_menu_title_padding">5dp</dimen>
+    <dimen name="main_home_menu_item_text_size">20sp</dimen>
+    <dimen name="main_home_menu_item_padding">5dp</dimen>
+    <dimen name="main_home_title_text_size">25sp</dimen>
+    <dimen name="main_home_bottom_padding">5dp</dimen>
+    <dimen name="main_tips_list_padding">5dp</dimen>
+    <dimen name="flt_query_by_padding">5dp</dimen>
+    <dimen name="flt_query_by_margin">20dp</dimen>
+    <dimen name="comm_content_input_container_padding">5dp</dimen>
+    <dimen name="comm_content_input_container_margin">5dp</dimen>
+    <dimen name="flt_list_label_text_size">15sp</dimen>
+    <dimen name="flt_list_item_text_size">12sp</dimen>
+    <dimen name="news_content_padding">5dip</dimen>
+    <dimen name="news_content_margin_top">10dip</dimen>
+    <dimen name="news_text_size">15sp</dimen>
+    <dimen name="news_weather_text_size">13sp</dimen>
+    <dimen name="news_padding_a">8dip</dimen>
+    <dimen name="news_padding_b">2dip</dimen>
+    <dimen name="news_margin">5dip</dimen>
+    <dimen name="srv_padding_a">5dip</dimen>
+    <dimen name="srv_padding_b">10dip</dimen>
+    <dimen name="srv_padding_c">15dip</dimen>
+    <dimen name="srv_margin">10dip</dimen>
+    <dimen name="srv_margin_b">5dip</dimen>
+    <dimen name="srv_comm_text_size">15sp</dimen>
+    <dimen name="srv_comm_text_size_b">13sp</dimen>
+    <dimen name="park_padding_small">2dip</dimen>
+    <dimen name="park_padding_a">5dip</dimen>
+    <dimen name="park_padding_b">10dip</dimen>
+    <dimen name="park_marging_a">5dip</dimen>
+    <dimen name="park_marging_b">10dip</dimen>
+    <dimen name="shop_padding_a">2dip</dimen>
+    <dimen name="shop_padding_b">5dip</dimen>
+    <dimen name="shop_marging_a">5dip</dimen>
+    <dimen name="shop_marging_b">10dip</dimen>
+    <dimen name="shop_comm_text_size">15sp</dimen>
+    <dimen name="shop_comm_text_size_b">13sp</dimen>
+    <dimen name="shop_type_width">80dp</dimen>
+    <dimen name="comm_titlebar_height">45dp</dimen>
+    
+    <!-- <dimen name="wheel_view_text_size">40sp</dimen> -->
+
+</resources>
